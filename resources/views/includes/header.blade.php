@@ -24,7 +24,14 @@
                             </li>
                         @endforeach
 
-                        <li><a href="">More...</a></li>
+                        <li><a href="#">More...</a></li>
+                        @auth
+                        <li><a href="{{ route('home') }}"><i class="seoicon-right-large-arrow"></i>{{ auth()->user()->name }}</a></li>
+                        @endauth
+
+                        @guest
+                        <li><a href="{{ route('login') }}"><i class="seoicon-right-large-arrow"></i>Login</a></li>
+                        @endguest
                     </ul>
                 </nav>
                 <ul class="nav-add">
