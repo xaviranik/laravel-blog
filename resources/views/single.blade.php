@@ -24,9 +24,9 @@
             <div class="col-lg-10 col-lg-offset-1">
                 <article class="hentry post post-standard-details">
 
-                    <div class="post-thumb">
+                    {{-- <div class="post-thumb">
                         <img src="{{ $post->featured }}" alt="seo">
-                    </div>
+                    </div> --}}
 
                     <div class="post__content">
 

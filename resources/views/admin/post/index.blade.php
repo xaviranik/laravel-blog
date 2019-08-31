@@ -16,7 +16,6 @@
                         @else
                             <table class="table table-hover">
                                 <thead>
-                                    <th>Image</th>
                                     <th>Post Name</th>
                                     <th>Edit</th>
                                     <th>Trash</th>
@@ -25,7 +24,6 @@
                                 <tbody>
                                     @foreach ($posts as $post)
                                         <tr>
-                                            <td><img src="{{ $post->featured }}" alt="" width="80px" height="50px"></td>
                                             <td>{{ $post->title }}</td>
                                             <td><a class="btn btn-sm btn-outline-primary" href="{{ route('post.edit', ['id' => $post->id]) }}"><i class="far fa-edit"></i></a></td>
                                              

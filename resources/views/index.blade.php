@@ -9,9 +9,9 @@
                 <article class="hentry post post-standard has-post-thumbnail sticky mt-4">
 
                         <div class="post-thumb">
-                            <img src="{{ $first_post->featured }}" alt="{{ $first_post->title }}">
+                            <img src="{{ asset('uploads/posts/post-bg-1.png') }}" alt="{{ $first_post->title }}">
                             <div class="overlay"></div>
-                            <a href="{{ $first_post->featured }}" class="link-image js-zoom-image">
+                            <a href="{{ asset('uploads/posts/post-bg-1.png') }}" class="link-image js-zoom-image">
                                 <i class="seoicon-zoom"></i>
                             </a>
                             <a href="#" class="link-post">
@@ -63,9 +63,9 @@
                 <article class="hentry post post-standard has-post-thumbnail sticky">
 
                         <div class="post-thumb">
-                            <img src="{{ $second_post->featured }}" alt="{{ $second_post->title }}">
+                            <img src="{{ asset('uploads/posts/post-bg-2.jpg') }}" alt="{{ $second_post->title }}">
                             <div class="overlay"></div>
-                            <a href="{{ $second_post->featured }}" class="link-image js-zoom-image">
+                            <a href="{{ asset('uploads/posts/post-bg-2.jpg') }}" class="link-image js-zoom-image">
                                 <i class="seoicon-zoom"></i>
                             </a>
                             <a href="#" class="link-post">
@@ -113,9 +113,9 @@
                 <article class="hentry post post-standard has-post-thumbnail sticky">
 
                         <div class="post-thumb">
-                            <img src="{{ $third_post->featured }}" alt="seo">
+                            <img src="{{ asset('uploads/posts/post-bg-3.jpg') }}" alt="seo">
                             <div class="overlay"></div>
-                            <a href="{{ $third_post->featured }}" class="link-image js-zoom-image">
+                            <a href="{{ asset('uploads/posts/post-bg-3.jpg') }}" class="link-image js-zoom-image">
                                 <i class="seoicon-zoom"></i>
                             </a>
                             <a href="#" class="link-post">
@@ -186,7 +186,7 @@
                                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                                     <div class="case-item">
                                         <div class="case-item__thumb">
-                                            <img src="{{ $post->featured }}" alt="our case">
+                                            <img src="{{ asset('uploads/posts/post-bg-3.jpg') }}" alt="our case">
                                         </div>
                                         <h6 class="case-item__title"><a href="{{ route('post.single', ['slug' => $post->slug]) }}">{{ $post->title }}</a></h6>
                                     </div>
@@ -215,7 +215,7 @@
                                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                                     <div class="case-item">
                                         <div class="case-item__thumb">
-                                            <img src="{{ $post->featured }}" alt="our case">
+                                            <img src="{{ asset('uploads/posts/post-bg-2.jpg') }}" alt="our case">
                                         </div>
                                         <h6 class="case-item__title"><a href="{{ route('post.single', ['slug' => $post->slug]) }}">{{ $post->title }}</a></h6>
                                     </div>
@@ -244,7 +244,7 @@
                                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                                     <div class="case-item">
                                         <div class="case-item__thumb">
-                                            <img src="{{ $post->featured }}" alt="our case">
+                                            <img src="{{ asset('uploads/posts/post-bg-1.png') }}" alt="our case">
                                         </div>
                                         <h6 class="case-item__title"><a href="{{ route('post.single', ['slug' => $post->slug]) }}">{{ $post->title }}</a></h6>
                                     </div>
