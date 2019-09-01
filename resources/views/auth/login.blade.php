@@ -66,6 +66,10 @@
                         </div>
                     </form>
                 </div>
+
+                <div class="card-footer">
+                    <p>Login as Admin: <br>Email: jon@lifehacks.com <br>Password: 123456</p>
+                </div>
             </div>
         </div>
     </div>
